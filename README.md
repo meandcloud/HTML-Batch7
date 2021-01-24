@@ -16,5 +16,5 @@ Assignment # 3
 
 I created a basic website structure that includes the following tags.
 
-<ol>, <ul>, <li>
+<ol>, <ul>, <li>, <dl>, <dt>, <dd>
 
