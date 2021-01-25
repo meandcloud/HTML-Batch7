@@ -18,3 +18,9 @@ I created a basic website structure that includes the following tags.
 
 <ol>, <ul>, <li>, <dl>, <dt>, <dd>
 
+Assignment # 4
+
+I created a basic website structure that includes the following tags.
+
+<a>, <ul>, <li>, I have also created ids as well as target="_blank"
+
