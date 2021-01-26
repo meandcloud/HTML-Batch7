@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 7</title>
+</head>
+<body>
+    <header>Assignment 7</header>
+
+    <div class="container">
+        <form action="http://www.example.com/login.php" method="POST">
+            <fieldset>
+                <legend>Your Details:</legend>
+            <div class="row">
+                <div class="col-25">
+                <label>Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="Name" maxlength="30" required placeholder="Your name..">
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label>Password</label>
+            </div>
+            <div class="col-75">
+                <input type="password" id="password" name="password" maxlength="10" required placeholder="password...">
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label>Email</label>
+            </div>
+            <div class="col-75">
+                <input type="email" id="email" name="email" maxlength="30" required placeholder="Your email..">
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label>Date of Birth</label>
+            </div>
+            <div class="col-75">
+                <input type="date" id="date" name="date">
+            </div>
+            </div>
+
+          
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Reviews:</legend>
+            <div class="row">
+                <div class="col-25">
+                <label>How did you hear about us</label>
+            </div>
+            <div class="col-75">
+                <select>
+                    <option value="google">Google</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="facebook">Facebook</option>
+                  </select>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label>Would you like to visit again?</label>
+            </div>
+            <div class="col-75">
+                <input type="radio" id="yes" name="visit" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="visit" value="no">
+                <label for="no">No</label>
+                <input type="radio" id="may be" name="visit" value="may be">
+                <label for="may be">May be</label>
+
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                  <label for="subject">Comments:</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="comments" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col">
+                    <input type="checkbox" checked="checked">Sign me up for email updates
+                    
+                </div>
+           
+                <input type="submit" value="Submit review" id="btn">
+              </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+
+
+    <footer>&copy Developed by Amar, Powered by TechLogex Solutions</footer>
+</body>
+</html>
