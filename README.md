@@ -1,5 +1,5 @@
 # HTML-Batch7
-Basic Websites for the purpose of an assignments
+Basic Websites for the purpose of an assignments.
 
 Assignment # 1
 
@@ -32,7 +32,12 @@ I created a basic website structure that includes the following tags.
 
 Assignment # 7
 
-I created form and used to following tags
+I created form and used to following tags.
 
 <form> <methid> <fieldset> <legend><input> <select> <option> <label> <textarea>
+
+Assignment # 8
+
+I created single page basic website structure, and also make this website is responsive.
+
 
